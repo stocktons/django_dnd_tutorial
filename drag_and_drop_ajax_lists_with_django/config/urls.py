@@ -16,6 +16,7 @@ urlpatterns = [
     path("users/", include("drag_and_drop_ajax_lists_with_django.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     path('papers/', include('question.urls')),
+    path('student/', include('preferences.urls')),
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

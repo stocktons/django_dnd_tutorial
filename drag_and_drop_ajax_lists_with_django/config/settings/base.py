@@ -77,6 +77,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "drag_and_drop_ajax_lists_with_django.users.apps.UsersConfig",
     "question",
+    "preferences",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
